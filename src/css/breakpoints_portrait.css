@@ -1,0 +1,285 @@
+
+
+
+/* 
+Standard Portrait Sizes */
+
+/* Extra small devices (phones, 320px and up) */
+@media (max-width: 480px) and (orientation: portrait){
+    /* Styles for phones */
+    .pic-title{
+        font-size: 3.5vh;
+    }
+    .pic-description {
+        padding: 0.3rem;
+        font-size: 3.5vw;
+    }
+
+    /* about button and contact button */
+    .aboutBtn-container{ /* svg-beermat.css */
+    width: 20px;
+    margin: 0 0.5vh;
+    }
+    .contactBtn-container{ /* svg-beermat.css */
+    width: 25px;
+    }
+
+    /* Left Right Arrows */
+    .nav-btn{ /* svg-beermat.css svg viewbox is 8wide and 13high*/
+        /* auto only works with width defined */
+        width: 4vw;
+        height: auto;
+    }
+
+
+    /* Contact Form */
+    .contact-form-component{
+        top: 3vh;
+        left: 2vw;
+        width: 90%;
+        border-radius: 2vh;
+    }
+
+    .contact-close-btn{
+        width: 3vh;
+        height: 3vh;
+        top: 1vh;
+        left: calc(100% - 4vh);
+    }
+
+    .contact-form-title{
+        padding: 1vh;
+        font-size: 3vh;   
+    }
+    .contact-form-wrapper{
+        margin-top: 0.2vh;
+    }
+    .contact-form-input{
+        height: 3vh;
+        padding: 1.2vh 1vh;
+        margin: 0.5vh 0;
+        font-size: 2vh;
+        border-radius: 1vh;
+
+    }
+    .contact-form-message{
+        height: 14vh;
+        padding: 1vh;
+    }
+    .submit-btn{
+        margin-top: 0vh;
+
+        width:10vh;
+        height: 4vh;
+        padding:1vw;
+    
+        border-radius: 1vh;
+        font-size: 2vh;
+    }
+
+
+    /* About Modal */
+    .about-component{
+        top: 1vh;
+        left: 1vw;
+        width: 98%;
+        border-radius: 3vw;
+      }
+
+      .about-close-btn{
+        width: 3vh;
+        height: 3vh;
+        top: 1vh;
+        left: calc(100% - 7vw);
+      }
+      .about-title{
+        height: 5vh;
+      }
+      .para-tldr{
+        font-size: 2.3vh;
+        padding: 0 1vh;
+      }
+      .about-pic-container{
+        padding: 0.5vh;
+      }
+      .para-body{
+        font-size: 2vh;
+        padding: 0 1vh;
+      }
+
+}
+  
+/* Small devices (landscape phones and tablets, 481px and up) */
+@media (min-width: 481px) and (max-width: 767px) and (orientation: portrait){
+    /* Styles for landscape phones and small tablets */
+        /* Styles for phones */
+    .pic-title{
+        font-size: 6vw;
+    }
+    .pic-description {
+        padding: 0.3rem;
+        font-size: 4vw;
+    }
+
+    .btns-container{
+        /* floats above pic-title */
+        height: 6vh;
+        padding-top:0.5vh;
+      }
+    /* about button and contact button */
+    .aboutBtn-container{ /* svg-beermat.css */
+        width: 5vw;
+        margin: 0 0.5vh;
+    }
+        .contactBtn-container{ /* svg-beermat.css */
+        width: 6vw;
+    }
+
+   /* About Modal */
+   .about-component{
+    top: 2vh;
+    left: 2vw;
+    width: 90vw;
+    aspect-ratio: 1/1;
+    border-radius: 2vw;
+  }
+
+  .about-close-btn{
+    width: 4vh;
+    height: auto;
+    top: 0.5vh;
+    left: calc(100% - 6vw);
+  }
+  .about-title{
+    height: 7vh;
+  }
+  .para-tldr{
+    font-size: 3vh;
+    padding: 1vh 2vh;
+  }
+  .about-pic-container{
+    padding: 0.5vh;
+  }
+  .para-body{
+    font-size: 2.5vh;
+    padding: 1vh 2vh;
+  }
+}
+  
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+    /* Styles for tablets */
+    /* Styles for phones */
+    .pic-title{
+        font-size: 7vw;
+    }
+    .pic-description {
+        padding: 0.3.5rem;
+        font-size: 4vw;
+    }
+
+    /* about button and contact button */
+    .aboutBtn-container{ /* svg-beermat.css */
+        width: 5vw;
+        margin: 0 0.5vh;
+    }
+        .contactBtn-container{ /* svg-beermat.css */
+        width: 6vw;
+    }
+
+    .nav-btn{ /* svg-beermat.css svg viewbox is 8wide and 13high*/
+        /* auto only works with width defined */
+        width: 4vw;
+        height: auto;
+    }
+
+
+   /* About Modal */
+   .about-component{
+    top: 2vh;
+    left: 2vw;
+    width: 90vw;
+    aspect-ratio: 1/1;
+    border-radius: 2vw;
+  }
+
+  .about-close-btn{
+    width: 4vh;
+    height: auto;
+    top: 0.5vh;
+    left: calc(100% - 6vw);
+  }
+  .about-title{
+    height: 6vh;
+  }
+  .para-tldr{
+    font-size: 2.8vh;
+    padding: 0.5vh 2vh;
+  }
+  .about-pic-container{
+    padding: 0.5vh;
+  }
+  .para-body{
+    font-size: 2.5vh;
+    padding: 1vh 2vh;
+  }
+
+}
+  
+
+
+
+
+/* Large devices (laptops/desktops, 1025px wide and up)*/
+@media (min-width: 1025px) and (max-width: 1440px) and (orientation: portrait){
+    /* Styles for laptops and desktops */
+    .pic-title{
+        font-size: 1vw;
+    }
+    .pic-description {
+        padding: 0.2rem;
+        font-size: 1vw;
+    }
+}
+
+/* Standard Desktop devices (large desktops, 1441px wide and up) (LG 1920 x 1080p)  */
+@media (min-width: 1440px)  and (orientation: portrait){
+    /* Styles for large desktops */
+    .pic-title{
+        font-size: 2vw;
+        color: red;
+    }
+    .pic-description {
+        padding: 0.2rem;
+        font-size: 1vw;
+        color: red;
+    }
+}
+
+/* QHD Desktop Devives 2560px wide and up (Viewsonic 2560 x 1440) */
+@media (min-width: 2560px) and (orientation: portrait){
+    /* Styles for large desktops */
+    .pic-title{
+        font-size: 4vw;
+    }
+    .pic-description {
+        padding: 0.3rem;
+        font-size: 3vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+  
+  
